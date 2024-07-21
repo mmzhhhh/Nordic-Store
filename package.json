@@ -1,0 +1,25 @@
+{
+  "name": "nordic-store",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "tailwindcss": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
+  },
+  "dependencies": {
+    "swiper": "^11.1.5",
+    "vue": "^3.4.29",
+    "vue-carousel": "^0.18.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "tailwindcss": "^3.4.6",
+    "vite": "^5.3.1"
+  }
+}
