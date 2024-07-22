@@ -22,7 +22,7 @@
             <!-- 商品 -->
             <div class=" w-full md:w-1/3 xl:w-1/4 p-[30px] flex flex-col" v-for="(store,index) in stores" :key="index">
                 <a href="#">
-                    <img class=" hover:grow hover:shadow-lg" :src=store>
+                    <img class=" hover:grow hover:shadow-lg transition duration-300" :src=store>
                     <div class="pt-[15px] flex items-center justify-between">
                         <p>Product Name</p>
                         <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
